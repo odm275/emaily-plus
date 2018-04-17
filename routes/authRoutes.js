@@ -10,7 +10,7 @@ module.exports = (app) => {
     );
     app.get('/api/logout', (req,res) => {
         req.logout();
-        res.send(req.user); //Shouldn't be able to return anything
+        res.redirect('/');
     });
 
     app.get('/api/current_user', (req,res) => {
