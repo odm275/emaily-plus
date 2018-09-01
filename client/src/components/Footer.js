@@ -4,7 +4,7 @@ const Footer = () => (
   <footer className="footer">
     <p style={{ fontSize: "1.5rem" }}>
       {" "}
-      <a href="https://odm275.github.io/portfolio/">Coded by Oscar Mejia</a>
+      <a href="https://www.oscarmejia.me/">Coded by Oscar Mejia</a>
     </p>
   </footer>
 );
